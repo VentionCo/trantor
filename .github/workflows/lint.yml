@@ -15,7 +15,7 @@ jobs:
 
     steps:
     - name: Checkout Trantor source code
-      uses: actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5 # v4
+      uses: actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5 #v4
       with:
         submodules: true
         fetch-depth: 0
