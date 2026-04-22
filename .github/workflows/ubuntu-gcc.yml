@@ -41,7 +41,7 @@ jobs:
         make -j && sudo make install
 
     - name: Checkout Trantor source code
-      uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
+      uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
       with:
         submodules: true
         fetch-depth: 0
